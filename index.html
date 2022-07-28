@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kumbh+Sans:wght@400;700&family=Mukta:wght@700&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,400;1,700&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <title>Movie Design</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo-container">
+      <h1 class="logo">movie-hub</h1>
+    </div>
+    <div class="menu-container">
+      <ul class="menu-list">
+        <li>
+          <a href="#home" class="menu-list-item">Home</a>
+        </li>
+        <li>
+          <a href="#movies" class="menu-list-item">Movies</a>
+        </li>
+        <li>
+          <a href="#series" class="menu-list-item">Series</a>
+        </li>
+        <li>
+          <a href="#popular" class="menu-list-item">Popular</a>
+        </li>
+        <li>
+          <a href="#trends" class="menu-list-item">Trends</a>
+        </li>
+      </ul>
+      </div>
+    <div class="profile-container">
+      <img src="images/profile.jpg" alt="User profile picture" class="profile-img">
+    <div class="profile-text-container">
+        <span class="profile-text">Profile</span>
+        <i class="arrow-down fas fa-caret-down"></i>
+    </div>
+    <div class="toggle">
+        <i class="fas fa-moon toggle-icon"></i>
+        <i class="fas fa-sun toggle-icon"></i>
+        <div class="toggle-ball"></div>
+    </div>
+   </div>
+   </div>
+    <div id="hamburger-icon">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+   <div class="sidebar">
+      <i class="sidebar-icons fas fa-search"></i>
+      <i class="sidebar-icons fas fa-home"></i>
+      <i class="sidebar-icons fas fa-users"></i>
+      <i class="sidebar-icons fas fa-bookmark"></i>
+      <i class="sidebar-icons fas fa-tv"></i>
+      <i class="sidebar-icons fas fa-hourglass-start"></i>
+      <i class="sidebar-icons fas fa-shopping-cart"></i>
+   </div>
+  <div class="container" id="home">
+  <div class="movie-container">
+    <div class="featured-movie-wrapper"
+    style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515), url('images/red-men-gun.jpg');">
+        <img src="images/django.png" alt="Django movie" class="featured-movie-img">
+        <div class="featured-movie-desc-container">
+            <p class="featured-movie-desc">Django Unchained is a rip-roaring revenge actioner set in the American South just two years before the Civil War. It follows Django, a slave freed and trained as a bounty hunter by sophisticated German-born Dr. King Schultz, who is appalled by the racist ways of the antebellum South</p>
+        </div>
+      <button class="featured-movie-btn">watch</button>
+   </div>
+   <div class="movie-list-container" id="movies">
+      <h1 class="movie-list-item-title">New Releases</h1>
+      <div class="movie-list-wrapper">
+        <div class="movie-list">
+            <div class="movie-list-item">
+            <span class="movie-title">the hobbit</span>
+          <img src="images/hobbit.jpg" class="movie-list-item-img">
+          <p class="movie-list-item-desc">A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.</p>
+          <a href="https://www.youtube.com/watch?v=SDnYMbYB-nU">
+          <button class="movie-list-item-btn">watch</button></a>
+   </div> 
+
+   <div class="movie-list-item">
+        <span class="movie-title">rogue one</span>
+        <img src="images/futuristic.jpg" class="movie-list-item-img">
+        <p class="movie-list-item-desc">Revenge of the Sith is set three years after the onset of the Clone Wars as established in Attack of the Clones.The Jedi are spread across the galaxy in a full-scale war against the Separatists.</p>
+        <a href="https://www.youtube.com/watch?v=frdj1zb9sMY">
+        <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+     <span class="movie-title">avengers</span>
+     <img src="images/avengers.jpg" class="movie-list-item-img">
+     <p class="movie-list-item-desc">In the film, S.H.I.E.L.D. director Nick Fury assembles Iron Man, Captain America, Hulk, Thor, Black Widow and Hawkeye to battle Thor's adoptive brother, Loki, who attempts to subjugate humanity.</p>
+     <a href="https://www.youtube.com/watch?v=eOrNdBpGMv8">
+     <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+
+<div class="movie-list-item">
+    <span class="movie-title">star wars</span>
+    <img src="images/star-wars.jpeg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi.</p>
+    <a href="https://www.youtube.com/watch?v=8Qn_spdM5Zg">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">emoji movie</span>
+    <img src="images/emoji-movie.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">Gene, a multi-expressional emoji, sets out on a journey to become a normal emoji. This movie unlocks the never-before-seen secret world inside your smartphone.</p>
+    <a href="https://www.youtube.com/watch?v=r8pJt4dK_s4">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">lego batman</span>
+    <img src="images/lego-batman.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">In the Lego Universe, Batman continues to protect Gotham City and fight crime. During his latest mission to stop Joker from destroying the city.</p>
+    <a href="https://www.youtube.com/watch?v=h6DOpfJzmo0">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+      <span class="movie-title">her</span>
+      <img src="images/her.jpeg" class="movie-list-item-img">
+      <p class="movie-list-item-desc">The film follows Theodore Twombly (Joaquin Phoenix), a man who develops a relationship with Samantha (Scarlett Johansson), an artificially intelligent virtual assistant.</p>
+      <a href="https://www.youtube.com/watch?v=dJTU48_yghs">
+      <button class="movie-list-item-btn">watch</button></a>
+    </div>
+   </div>
+     <i class="fas fa-chevron-right arrow"></i>
+   </div>
+  </div>
+
+  <div class="movie-list-container">
+      <h1 class="movie-list-item-title">Movies</h1>
+    <div class="movie-list-wrapper">
+      <div class="movie-list">
+          <div class="movie-list-item">
+          <span class="movie-title">rampage</span>
+        <img src="images/rock-movie.jpg" class="movie-list-item-img">
+        <p class="movie-list-item-desc">It follows a primatologist who must team up with George, an albino western lowland gorilla who turns into a raging creature of enormous size as a result of a rogue experiment.</p>
+        <a href="https://www.youtube.com/watch?v=coOKvrsmQiI">
+        <button class="movie-list-item-btn">watch</button></a>
+ </div> 
+
+ <div class="movie-list-item">
+      <span class="movie-title">top gun-mav</span>
+      <img src="images/top-gun-mavercick.webp" class="movie-list-item-img">
+      <p class="movie-list-item-desc">It follows Maverick's reluctant return to the United States Navy Strike Fighter Tactics Instructor program after 36 years, where he must confront his past as he trains a group of younger aviators</p>
+      <a href="https://www.youtube.com/watch?v=giXco2jaZ_4">
+      <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">spiderman</span>
+    <img src="images/spiderman.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy.</p>
+    <a href="https://www.youtube.com/watch?v=TYMMOjBUPMM">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+
+<div class="movie-list-item">
+    <span class="movie-title">aquaman</span>
+    <img src="images/aquaman.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The film was directed by James Wan, from a screenplay by David Leslie Johnson-McGoldrick and Will Beall. It stars Jason Momoa as Arthur Curry / Aquaman, who sets out to lead a underwater kingdom.</p>
+    <a href="https://www.youtube.com/watch?v=WDkg3h8PCVU">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">due date</span>
+    <img src="images/due-date.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The film follows a man (Robert Downey Jr.) who must get across the country to Los Angeles in time for the birth of his child and is forced to road-trip.</p>
+    <a href="https://www.youtube.com/watch?v=1p3NnJ_oiE0">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+     <span class="movie-title">storm</span>
+     <img src="images/storm.jpg" class="movie-list-item-img">
+     <p class="movie-list-item-desc">The storyline was very interesting. A lady prosecutor is hellbent on making a war criminal pay for his crimes. A witness is determined to make this same war.</p>
+     <a href="https://www.youtube.com/watch?v=2gYgoDJP0RM">
+     <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">jurassic 4</span>
+    <img src="images/jurassic-world-dominion.png" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The film is set four years after the events of Fallen Kingdom, with dinosaurs now living alongside humans around the world. It follows Owen and Claire as they embark on a rescue mission.</p>
+    <a href="https://www.youtube.com/watch?v=fb5ELWi-ekk">
+    <button class="movie-list-item-btn">watch</button></a>
+  </div>
+ </div>
+   <i class="fas fa-chevron-right arrow"></i>
+ </div>
+</div>
+
+<div class="movie-list-container" id="series">
+    <h1 class="movie-list-item-title">Series</h1>
+  <div class="movie-list-wrapper">
+    <div class="movie-list">
+        <div class="movie-list-item">
+        <span class="movie-title">anatomy</span>
+      <img src="images/series1.jpg" class="movie-list-item-img">
+      <p class="movie-list-item-desc">A sexual consent scandal amongst British privileged elite and the women caught up in its wake. A sexual consent scandal amongst British privileged elite and the women caught up in its wake.</p>
+      <a href="https://www.youtube.com/watch?v=M1UGGZnHyf8">
+      <button class="movie-list-item-btn">watch</button></a>
+</div> 
+
+<div class="movie-list-item">
+    <span class="movie-title">ms.marvel</span>
+    <img src="images/series2.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">It follows Kamala Khan, a 16-year-old fangirl of the Avengers, who struggles to fit in until she gains her own powers.</p>
+    <a href="https://www.youtube.com/watch?v=m9EX0f6V11Y">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">mandalorian</span>
+    <img src="images/series3.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic. After the stories of Jango and Boba Fett, another warrior emerges in the universe.</p>
+    <a href="https://www.youtube.com/watch?v=aOC8E8z_ifw">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+
+<div class="movie-list-item">
+    <span class="movie-title">bad batch</span>
+    <img src="images/series4.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">Star Wars: The Bad Batch is an animated television series that acts as both a sequel to and a spin-off of Star Wars: The Clone Wars. It focuses on the squad known as Clone Force 99.</p>
+    <a href="https://www.youtube.com/watch?v=BsOmYpP4UDU">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">severance</span>
+    <img src="images/series5.webp" class="movie-list-item-img">
+    <p class="movie-list-item-desc">Premise. A sinister technology corporation, Lumon Industries, uses a "severance" medical procedure to separate the non-work memories of some of their employees from their memories</p>
+    <a href="https://www.youtube.com/watch?v=xEQP4VVuyrY">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">pacific rim</span>
+    <img src="images/series6.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">After Kaiju ravage Australia, two siblings pilot a Jaeger to search for their parents, encountering new creatures, seedy characters and chance allies.</p>
+    <a href="https://www.youtube.com/watch?v=umtOGzti-XQ">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">discovery</span>
+    <img src="images/series7.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The Discovery Series showcases the art of blending hand-selected, supremely aged bourbon. For each release, team members throughout the distillery taste, analyze, and vote on the best recipe.</p>
+    <a href="https://www.youtube.com/watch?v=hC7IMj7WFyE">
+    <button class="movie-list-item-btn">watch</button></a>
+  </div>
+</div>
+ <i class="fas fa-chevron-right arrow"></i>
+</div>
+</div>
+
+<div class="movie-list-container" id="popular">
+    <h1 class="movie-list-item-title">Popular</h1>
+  <div class="movie-list-wrapper">
+    <div class="movie-list">
+        <div class="movie-list-item">
+        <span class="movie-title">toronto</span>
+      <img src="images/popular1.jpg" class="movie-list-item-img">
+      <p class="movie-list-item-desc">The world's deadliest assassin and New York's biggest screw-up are mistaken for each other at an Airbnb rental.</p>
+      <a href="https://www.youtube.com/watch?v=urqy8DrcGBs">
+      <button class="movie-list-item-btn">watch</button></a>
+</div> 
+
+<div class="movie-list-item">
+    <span class="movie-title">spiderhead</span>
+    <img src="images/popular2.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">In the near future, convicts are offered the chance to volunteer as medical subjects to shorten their sentence. One such subject for a new drug capable of generating feelings of love begins.</p>
+    <a href="https://www.youtube.com/watch?v=BfsNfFoA0J0">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">logan</span>
+    <img src="images/popular3.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The film, which takes inspiration from the "Old Man Logan" comics storyline by Mark Millar and Steve McNiven, follows an aged Wolverine and an extremely ill Charles Xavier.</p>
+    <a href="https://www.youtube.com/watch?v=Div0iP65aZo">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+
+<div class="movie-list-item">
+    <span class="movie-title">fanstastic 4</span>
+    <img src="images/popular4.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The plot follows four astronauts on an experimental spacecraft who are bombarded with a comet's cosmic rays, whereby they acquire extraordinary abilities.</p>
+    <a href="https://www.youtube.com/watch?v=_rRoD28-WgU">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">bad guys</span>
+    <img src="images/popular5.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">It tells the story of a criminal group of anthropomorphic animals who, upon being caught, pretend to attempt to reform themselves as model citizens.</p>
+    <a href="https://www.youtube.com/watch?v=m8Xt0yXaDPU">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">hacksaw</span>
+    <img src="images/popular6.webp" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The film focuses on the World War II experiences of Desmond Doss, an American pacifist combat medic who, as a Seventh-day Adventist Christian, refused to carry or use a weapon.</p>
+    <a href="https://www.youtube.com/watch?v=s2-1hz1juBI">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">karate kid</span>
+    <img src="images/popular7.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The Karate Kid follows Daniel LaRusso (Macchio), a teenager taught karate by Mr. Miyagi (Morita) to help defend himself and compete in a tournament against his bullies.</p>
+    <a href="https://www.youtube.com/watch?v=xlnm0NtPoVs">
+    <button class="movie-list-item-btn">watch</button></a>
+    </div>
+  </div>
+    <i class="fas fa-chevron-right arrow"></i>
+  </div>
+</div>
+
+<div class="movie-list-container" id="trends">
+    <h1 class="movie-list-item-title">Trends</h1>
+  <div class="movie-list-wrapper">
+    <div class="movie-list">
+        <div class="movie-list-item">
+        <span class="movie-title">memory</span>
+      <img src="images/popular8.jpg" class="movie-list-item-img">
+      <p class="movie-list-item-desc">MEMORY follows Alex Lewis (Liam Neeson), an expert assassin with a reputation for discreet precision. Caught in a moral quagmire, Alex refuses to complete a job that violates his code.</p>
+      <a href="https://www.youtube.com/watch?v=yGw8yw6Mso8">
+      <button class="movie-list-item-btn">watch</button></a>
+</div> 
+
+<div class="movie-list-item">
+    <span class="movie-title">jurassic</span>
+    <img src="images/popular9.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">Set 22 years after the original Jurassic Park, Jurassic World revolves around a functional theme park featuring dinosaurs, which is then thrown into chaos when a genetic hybrid escapes.</p>
+    <a href="https://www.youtube.com/watch?v=RFinNxS5KN4">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">top gun-mav</span>
+    <img src="images/top-gun-mavercick.webp" class="movie-list-item-img">
+    <p class="movie-list-item-desc">It follows Maverick's reluctant return to the United States Navy Strike Fighter Tactics Instructor program after 36 years, where he must confront his past as he trains a group of younger aviators.</p>
+    <a href="https://www.youtube.com/watch?v=giXco2jaZ_4&t=1s">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+
+<div class="movie-list-item">
+    <span class="movie-title">rogue one</span>
+    <img src="images/futuristic.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">Revenge of the Sith is set three years after the onset of the Clone Wars as established in Attack of the Clones.The Jedi are spread across the galaxy in a full-scale war against the Separatists.</p>
+    <a href="https://www.youtube.com/watch?v=frdj1zb9sMY">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">rampage</span>
+    <img src="images/rock-movie.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">It follows a primatologist who must team up with George, an albino western lowland gorilla who turns into a raging creature of enormous size as a result of a rogue experiment.</p>
+    <a href="https://www.youtube.com/watch?v=coOKvrsmQiI">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">due date</span>
+    <img src="images/due-date.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The film follows a man (Robert Downey Jr.) who must get across the country to Los Angeles in time for the birth of his child and is forced to road-trip.</p>
+    <a href="https://www.youtube.com/watch?v=Hd_aN0LAgMo">
+    <button class="movie-list-item-btn">watch</button></a>
+</div>
+
+<div class="movie-list-item">
+    <span class="movie-title">aquaman</span>
+    <img src="images/aquaman.jpg" class="movie-list-item-img">
+    <p class="movie-list-item-desc">The film was directed by James Wan, from a screenplay by David Leslie Johnson-McGoldrick and Will Beall. It stars Jason Momoa as Arthur Curry / Aquaman, who sets out to lead a underwater kingdom.</p>
+    <a href="https://www.youtube.com/watch?v=WDkg3h8PCVU">
+    <button class="movie-list-item-btn">watch</button></a>
+   </div>
+ </div>
+    <i class="fas fa-chevron-right arrow"></i>
+ </div>
+</div>
+
+<!-- Footer Section -->
+<div class="footer">
+  <div class="footer-container">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h3 class="footer-col-title">follow us</h3>
+        <div class="social-links">
+            <a href="/"><i class="fab fa-facebook f-socials"></i></a>
+            <a href="/"><i class="fab fa-twitter t-socials"></i></a>
+            <a href="/"><i class="fab fa-instagram i-socials"></i></a>
+            <a href="/"><i class="fab fa-youtube y-socials"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+          <h3 class="footer-col-title">get updates on all things movies</h3>
+          <input type="email" placeholder="enter email address" class="email">
+          <button type="submit" class="footer-button">submit</button>
+      </div>
+      <div class="footer-col">
+          <h3 class="footer-col-title">get movie-hub apps</h3>
+          <img src="images/app-store.png" alt="App store button" class="app-button">
+          <img src="images/google-play-img.png" alt="Google play button" class="app-button">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
